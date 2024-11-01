@@ -1,0 +1,12 @@
+{
+    "Display": {
+        "implementation": "SelfDisplay",
+        "screen_cap_dir": "./src/.temp"
+    },
+    "Mouse": {
+        "implementation": "SelfMouse"
+    },
+    "Keyboard": {
+        "implementation": "SelfKeyboard"
+    }
+}
