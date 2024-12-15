@@ -1,0 +1,9 @@
+{
+    "BOTTOM_SWIPE": [360, 1550, 360, 1000],
+    "SCREEN_TRANSITION_DELAY_S": 0.5,
+    "UNLOCK_DELAY_S": 2,
+    "PAIR_POPUP_RECTANGLE": [410, 920, 640, 960],
+    "FOOTER_BAR_RECTANGLE": [0, 1520, 720, 1600],
+    "RECENT_APPS_ICON": "./res_phone/recent_apps_icon.png",
+    "DEVICE_DETAILS_ICON": "./res_phone/device_details_icon.png"
+}

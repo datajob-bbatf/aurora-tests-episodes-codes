@@ -1,0 +1,95 @@
+{
+    "token": "",
+    "Devices": [
+        {
+            "name": "HeadUnit",
+            "id": "750E419E0187B73A",
+            "Display": {
+                "implementation": "AndroidDisplay",
+                "screenshot_file": "./.temp/screenshot_hu.png"
+            },
+            "Touches": {
+                "implementation": "AndroidTouches"
+            },
+            "Buttons": [
+                {
+                    "name": "HOME",
+                    "implementation": "AndroidButtonHome"
+                },
+                {
+                    "name": "BACK",
+                    "implementation": "AndroidButtonBack"
+                }
+            ]
+        },
+        {
+            "name": "Phone",
+            "id": "ZL7322NRGG",
+            "Display": {
+                "implementation": "AndroidDisplay",
+                "screenshot_file": "./.temp/screenshot_phone.png"
+            },
+            "Touches": {
+                "implementation": "AndroidTouches"
+            },
+            "Buttons": [
+                {
+                    "name": "HOME",
+                    "implementation": "AndroidButtonHome"
+                },
+                {
+                    "name": "BACK",
+                    "implementation": "AndroidButtonBack"
+                },
+                {
+                    "name": "POWER",
+                    "implementation": "AndroidButtonPower"
+                },
+                {
+                    "name": "ENTER",
+                    "implementation": "AndroidButtonEnter"
+                },
+                {
+                    "name": "0",
+                    "implementation": "AndroidButton0"
+                },
+                {
+                    "name": "1",
+                    "implementation": "AndroidButton1"
+                },
+                {
+                    "name": "2",
+                    "implementation": "AndroidButton2"
+                },
+                {
+                    "name": "3",
+                    "implementation": "AndroidButton3"
+                },
+                {
+                    "name": "4",
+                    "implementation": "AndroidButton4"
+                },
+                {
+                    "name": "5",
+                    "implementation": "AndroidButton5"
+                },
+                {
+                    "name": "6",
+                    "implementation": "AndroidButton6"
+                },
+                {
+                    "name": "7",
+                    "implementation": "AndroidButton7"
+                },
+                {
+                    "name": "8",
+                    "implementation": "AndroidButton8"
+                },
+                {
+                    "name": "9",
+                    "implementation": "AndroidButton9"
+                }
+            ]
+        }
+    ]
+}

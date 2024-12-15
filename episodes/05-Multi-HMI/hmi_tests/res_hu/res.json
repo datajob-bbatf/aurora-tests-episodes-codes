@@ -1,0 +1,6 @@
+{
+    "TOP_SWIPE": [960, 0, 960, 300],
+    "BOTTOM_SWIPE": [960, 1000, 960, 200],
+    "SCREEN_TRANSITION_DELAY_S": 1,
+    "DEVICE_DETAILS_ICON": "./res_hu/device_details_icon.png"
+}
