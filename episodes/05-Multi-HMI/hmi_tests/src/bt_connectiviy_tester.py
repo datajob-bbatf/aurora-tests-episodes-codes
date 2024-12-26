@@ -208,7 +208,14 @@ class BtConnectivityTester:
                 self._touches.tap(forget_btn_text.center())
                 time.sleep(self._SCREEN_TRANSITION_DELAY_S)
 
-                popup_forget_device_btn_text = self._display.grab().find_text("FORGET DEVICE")
+                if "FORGET_POPUP_RECTANGLE" in self._resources:
+                    popup_region = Rectangle(
+                        self._resources["FORGET_POPUP_RECTANGLE"])
+                else:
+                    popup_region = None
+
+                popup_forget_device_btn_text = self._display.grab(
+                ).find_text("FORGET DEVICE", popup_region)
                 if popup_forget_device_btn_text:
                     self._touches.tap(popup_forget_device_btn_text.center())
                     return True

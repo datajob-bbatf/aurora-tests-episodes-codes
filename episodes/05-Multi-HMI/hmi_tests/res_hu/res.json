@@ -2,5 +2,7 @@
     "TOP_SWIPE": [960, 0, 960, 300],
     "BOTTOM_SWIPE": [960, 1000, 960, 200],
     "SCREEN_TRANSITION_DELAY_S": 1,
+    "PAIR_POPUP_RECTANGLE": [1215, 640, 1440, 680],
+    "FORGET_POPUP_RECTANGLE": [1080, 580, 1440, 620],
     "DEVICE_DETAILS_ICON": "./res_hu/device_details_icon.png"
 }
